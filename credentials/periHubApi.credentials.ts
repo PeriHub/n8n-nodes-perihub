@@ -5,9 +5,9 @@ import {
 	INodeProperties,
 } from 'n8n-workflow';
 
-export class HttpBinApi implements ICredentialType {
-	name = 'httpbinApi';
-	displayName = 'HttpBin API';
+export class periHubApi implements ICredentialType {
+	name = 'perihubApi';
+	displayName = 'PeriHub API';
 	documentationUrl = 'https://your-docs-url';
 	properties: INodeProperties[] = [
 		{
@@ -17,7 +17,7 @@ export class HttpBinApi implements ICredentialType {
 			default: '',
 			typeOptions: {
 				password: true,
-			}
+			},
 		},
 		{
 			displayName: 'Domain',
